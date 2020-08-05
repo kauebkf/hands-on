@@ -10,12 +10,14 @@ Questions:
 2.2) such that cause of the bug can be spotted by the compiler at *compile time*.
 3) What did you learn from this exercise?
 */
-function safeDivide(): number {
+function safeDivide(): number{
     let x: number = 42;
-
-    if (x == 0) throw new Error("x should not be 0");
 
     x = x - 42;
 
+    // The conditional check was happening before the operation
+    if (x == 0) throw new Error("x should not be 0")
+
     return 42 / x;
 }
+

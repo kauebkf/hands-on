@@ -13,10 +13,14 @@ the encapsulation. In other words, he will need to call the `setDivisor()` metho
 to set the `divisor` member variable.
 
 Questions:
-1) What did you learn from this exercise?
+1) What did you learn from this exercise? 
+
 */
+
+// Answer: member encapsulation
+
 class SafeDivisor {
-    divisor: number = 1;
+    private divisor: number = 1;
 
     setDivisor(value: number) {
         if (value == 0) {

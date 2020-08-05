@@ -68,5 +68,7 @@ Think. Compare and contrast the:
 
 Question:
 1) What did you learn from this problem? Why would we want to refactor the code to be
-like the Composable implementation?
+like the Composable implementation? 
 */
+
+//Answer: The composable implementation can be generically used by various types, it is reusable.
